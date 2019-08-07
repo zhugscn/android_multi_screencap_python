@@ -12,12 +12,11 @@ android app写说明文档，或者产品经理研究竞品，都需要大量从
  
  现在有一个更优雅的方式，使用USB线连接设备后，保证有adb安装，本脚本自动帮你命名
 
- run time python3.5.4
- Stephen Zhu
 
 > 环境准备
 
 first intall python 3.5.4 or other 3.x
+先安装python 3.x运行环境
 
 > 运行脚本
 ```
@@ -28,6 +27,9 @@ python android_multi_screencap.py
 会出现以下界面
 
 ![avatar](./doc/console1.jpg)
+
+按一下回车截图一次，爽吧。
+如果想自定义文件名，也可以手动输入，例如"APP首页"，会自动存为"App首页.png"
 
 > 截图结果
 
